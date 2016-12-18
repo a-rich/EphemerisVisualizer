@@ -11,7 +11,7 @@ celestial body in a dictionary. This dictionary is serialized and saved into a
 file called `objects.p`.
 
 The structure of this dictionary is a key for each class of celestial body
-(sun and planets, Jovian satellites, Saturnian satellites, Uranian satellites,
+(Sun and planets, Jovian satellites, Saturnian satellites, Uranian satellites,
 Neptunian satellites, other satellites, and spacecraft), and each key has an
 associated value that is, itself, another dictionary...each of these associated
 dictionaries maps the unique ID of the celestial body to a list of six values;
